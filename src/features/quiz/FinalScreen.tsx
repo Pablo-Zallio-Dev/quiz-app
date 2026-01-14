@@ -1,6 +1,6 @@
 import ButtonActive from "../../components/ButtonActive"
 import ButtonReset from "../../components/ButtonReset"
-import trophy from '../../assets/images/Trophy.gif'
+import trophy from '../../assets/images/trophy.gif'
 import { useQuizStore } from "../../store/store"
 
 const FinalScreen = () => {
