@@ -37,7 +37,7 @@ const QuizCard = () => {
           {/* cantidad de preguntas y aciertos */}
           <section className=" flex justify-between ">
             <p className=" p-5 text-color-text text-xs font-bold  ">
-              Pregunta <span> {currentCuestionIndex + 1} </span> de 5{" "}
+              Pregunta <span> {currentCuestionIndex + 1} </span> de {questions.length}{" "}
             </p>
             <p className=" p-5 text-color-text text-xs font-bold  ">
               Puntuacion: <span> {score} </span>/{questions.length}{" "}
