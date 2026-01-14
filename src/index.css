@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Tu fuente Geist */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../src/assets/fonts/Nunito-VariableFont_wght.woff2") format("woff2");
+}
+
+:root {
+      --background: #F9FAF7;
+      --background-btn: #464CC5;
+      --background-btn-hover: #6065c3;
+      --border: #c7c7c7;
+      --color-font-dark: #2D2A32;
+      --color-text: #75717a;
+      --text-light: #F9FAF7;
+
+}
+
+@theme {
+      /* Fuente */
+      --font-nunito: "Nunito", sans-serif, serif;
+      --font-primary: var(--font-nunito);
+
+      /* color */
+      --color-background: var(--background);
+      --color-background-btn: var(--background-btn);
+      --color-background-btn-hover: var(--background-btn-hover);
+      --color-border-card: var(--border);
+      --color-color-text: var(--color-text);
+      --color-text-light: var(--text-light);
+}
+
+body {
+      font-family: var(--font-primary);
+      background-color: var(--background);
+      color: var(--color-font-dark);
+}
+
+
+/* En tu archivo index.css */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
