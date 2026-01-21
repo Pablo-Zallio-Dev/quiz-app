@@ -1,73 +1,69 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img alt=''  src='./public/logo_dark.webp'>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### PZ Web Developer
 
-## React Compiler
+<a href='https://portfolio-opal-nine-21.vercel.app/'> 👉 Portfolio web 👈 </a>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<hr width='560' />
 
-## Expanding the ESLint configuration
+# Quiz App
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<img width='540' src='./public/img_readme01.png'>
+<br>
+<img width='540' src='./public/img_readme02.png'>
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<br>
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+<h2> 🔗 <a href='https://quiz-app-omega-orpin.vercel.app/'> Live demo </a>
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+</div>
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🗒️ Descripción
+Aplicación web de preguntas y respuestas construida con React que integra fetching de datos desde API externa, manejo de estado reactivo, componentes reutilizables y lógica de puntuación. Ofrece múltiples categorías temáticas con interfaz responsive y feedback visual inmediato.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎯 Objetivos del proyecto
+- Mejorar la estructura de carpetas.
+- Poner en práctica el manejo de estados con <i> Zustand</i>.
+- Generar una interfaz más dinamica e interactiva.
+
+## ✨ Características
+- 🎲 Preguntas aleatorias desde API externa
+- 📊 Sistema de puntuación en tiempo real
+- 🎨 Interfaz responsive y moderna
+- ⚡ Feedback visual inmediato
+
+
+## ⚒️ Stack Tecnológico
+- **React** - Librería de UI
+- **TypeScript** - Tipado estático
+- **Zustand** - Gestión de estado
+- **Vite** - Build tool
+- **Tailwind** - Estilos
+
+## 🏗️ Escalabilidad
+### Futuras implementaciones
+- Filtrado de preguntas por categorías temáticas
+- Sistema de selección de dificultad
+
+
+<br>
+<hr>
+
+<div align='center'>
+<br>
+👷‍♂️ Proyecto desarrollado para práctica de conceptos y aprendizaje.
+
+<br>
+
+#### 👌 ¿Te ha gustado? Puedes dejar una estrella ☺️
+
+<br>
+
+### Desarrollado con 💕 por <a href='https://portfolio-opal-nine-21.vercel.app/'>Pablo.  </a>
+<a href='https://www.linkedin.com/in/pablozalliodev/'>Linkedin -</a>
+<a href="mailto:pablozalliodev@gmail.com" target="_blank"> Correo </a>
+</div>
